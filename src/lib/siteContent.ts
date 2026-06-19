@@ -26,7 +26,7 @@ export const siteContent = {
       "服务5000多个家庭",
       "粤语 • 普通话 • 英语"
     ],
-    image: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=1600&q=80",
+    image: "https://pub-b10352cd30db47758f1614c0d15bce2c.r2.dev/media/7904003328/2026-06/98f8100e-53ad-451c-86e8-496ac683bd08.png",
   },
   
   services: {
