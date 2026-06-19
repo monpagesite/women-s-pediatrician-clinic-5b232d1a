@@ -34,7 +34,7 @@ export const HeroSection: React.FC = () => {
       <div className="hidden md:flex w-full min-h-screen">
         {/* Left Content Area */}
         <div className="w-[55%] bg-background flex items-center">
-          <div className="max-w-7xl mx-auto px-6 md:px-12 py-20" ref={contentRef}>
+          <div className="w-full max-w-7xl mx-auto px-6 md:px-12 py-20" ref={contentRef}>
             <div className="max-w-2xl">
               {/* Badge */}
               <span className="hero-reveal opacity-0 translate-y-8 transition-all duration-700 ease-out bg-secondary/10 text-secondary px-4 py-1.5 rounded-full text-sm font-medium inline-block mb-6">
