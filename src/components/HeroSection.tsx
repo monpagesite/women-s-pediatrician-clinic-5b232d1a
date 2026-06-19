@@ -9,6 +9,7 @@ export const HeroSection: React.FC = () => {
     const elements = contentRef.current?.querySelectorAll('.hero-reveal');
     elements?.forEach((el, index) => {
       setTimeout(() => {
+        el.classList.remove('opacity-0', 'translate-y-8');
         el.classList.add('opacity-100', 'translate-y-0');
       }, index * 100);
     });
